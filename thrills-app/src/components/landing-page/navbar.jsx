@@ -5,9 +5,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = ({ options }) => {
   return (
     <>
-      <div className="flex text-2xl  md:text-sm relative">
-        <span className="absolute top-[-1rem]">
-          <img className="w-[300px] lg:w-[120px]" src={logo} alt="logo" />
+      <div className="flex text-2xl md:text-sm relative">
+        <span className="absolute top-[-1.5rem]">
+          <img className="w-40" src={logo} alt="logo" />
         </span>
         <ul className="flex p-2 md:gap-2 absolute right-16">
           <li>
