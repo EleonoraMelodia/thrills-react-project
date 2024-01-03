@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div>
         <span className="flex ">
           <h2>Sign up and let yourself be kidnapped by an emotion! </h2>
-          <img className="w-20" src={img} alt="sign up image" />
+          <img className="w-[24%]" src={img} alt="sign up image" />
         </span>
 
         <SignUp />

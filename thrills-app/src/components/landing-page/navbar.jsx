@@ -11,11 +11,11 @@ const Navbar = ({ options }) => {
         </span>
         <ul className="flex p-2 md:gap-2 absolute right-16">
           <li>
-            <span className="text-2xl lg:hidden">
+            <span className="text-2xl md:hidden">
               <FontAwesomeIcon icon={faBars} />
             </span>
           </li>
-          <span className="hidden  lg:flex md:gap-4">
+          <span className="hidden md:flex md:gap-4 ">
             {options.map((link, index) => (
               <li className="hover:text-xl" key={index}>
                 <a href="#"> {link} </a>{" "}
