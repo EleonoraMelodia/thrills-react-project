@@ -11,14 +11,14 @@ const HeroSection = () => {
           src={imgHero}
           alt="main landing page img"
               />
-              <div className="flex justify-center"> <h2 className=" font-nanum text-white  bg-black bg-opacity-50 ">
+              <div className="flex justify-center"> <h2 className=" font-nanum text-white text-xl  bg-black bg-opacity-50 ">
           This is Carl, and his heart thrills every day from 1952!
         </h2></div>
         
       </div>
 
       <div>
-        <span className="flex ">
+        <span className="flex font-nanum text-5xl ">
           <h2>Sign up and let yourself be kidnapped by an emotion! </h2>
           <img className="w-[24%]" src={img} alt="sign up image" />
         </span>
