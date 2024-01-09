@@ -1,10 +1,11 @@
+import React from "react";
 import video from "../../video/hero-s.mp4";
 
 const VideoSection = () => {
   return (
     <video
       className="rounded-sm"
-      src={video}
+      src={video as any}
       autoPlay
       loop
       muted

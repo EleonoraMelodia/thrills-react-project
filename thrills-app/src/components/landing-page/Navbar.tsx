@@ -1,8 +1,14 @@
+import React from "react";
 import logo from "../../assets/Thrills LIGHTMODE.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = ({ options }) => {
+type NavbarOptions = {
+  options: string[];
+};
+
+
+const Navbar = ({ options } : NavbarOptions) => {
   return (
     <>
       <div className="flex text-2xl md:text-sm relative">
@@ -18,7 +24,7 @@ const Navbar = ({ options }) => {
           <span className="hidden md:flex md:gap-4 ">
             {options.map((link, index) => (
               <li className="hover:text-xl" key={index}>
-                <a href="#"> {link} </a>{" "}
+                <a href="#"> {link} </a>
               </li>
             ))}
           </span>

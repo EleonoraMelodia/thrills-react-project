@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import slides from "../../slides.json";
+import React from "react";
 
 import CarouselEvents from "./Carousel";
 import CentralCard from "./CentralCard";
@@ -15,6 +16,9 @@ const LandingPage = () => {
     "Security",
     "Download",
   ];
+
+
+  
   return (
     <div className="flex-col bg-gradient-to-b from-yellow to-purple h-full">
       <Navbar options={navArr} />
@@ -22,9 +26,9 @@ const LandingPage = () => {
       <CentralCard />
       <span className="flex relative flex-row justify-center text-center items-center">
         <h2 className="text-center text-4xl font-nanum text-white ">
-          Highlighted events and experiences this month{" "}
+          Highlighted events and experiences this month
           <img className="w-[30px]  inline-block m-1" src={fire} alt="fire" /> :
-        </h2>{" "}
+        </h2>
       </span>
       <CarouselEvents slides={slides} />
     </div>

@@ -1,11 +1,12 @@
 import VideoSection from "./VideoSection";
+import React from "react";
 
 const CentralCard = () => {
   return (
     <>
       <div className="flex gap-4 p-16">
         <span className="w-[70%] ">
-          <VideoSection />
+          <VideoSection  />
         </span>
 
         <div className="w-[50%]">

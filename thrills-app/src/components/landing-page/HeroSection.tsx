@@ -1,8 +1,47 @@
+import React from "react";
 import imgHero from "../../assets/hero-sec.jpg";
 import SignUp from "./SignUp";
 import img from "../../assets/cow.png";
 
 const HeroSection = () => {
+  const dataArr = [
+    {
+      name: "name",
+      label: "Name",
+      type: "text",
+    },
+    {
+      name: "surname",
+      label: "Surname",
+      type: "text",
+    },
+    {
+      name: "city",
+      label: "City",
+      type: "text",
+    },
+    {
+      name: "date",
+      label: "Your birthday",
+      type: "date",
+    },
+    {
+      name: "email",
+      label: "E-mail",
+      type: "email",
+    },
+    {
+      name: "password",
+      label: "Password",
+      type: "password",
+    },
+    {
+      name: "repeatPassword",
+      label: "Repeat password",
+      type: "password",
+    },
+  ];
+
   return (
     <div className="flex flex-col md:flex-row gap-2 mt-[7%] p-10">
       <div className="flex flex-col w-full relative">
@@ -23,7 +62,7 @@ const HeroSection = () => {
           <img className="w-[24%]" src={img} alt="sign up image" />
         </span>
 
-        <SignUp />
+        <SignUp signupData = {dataArr} />
       </div>
     </div>
   );

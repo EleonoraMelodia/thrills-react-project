@@ -1,8 +1,22 @@
 import Carousel from "react-bootstrap/Carousel";
+import React from 'react';
 
-function CarouselEvents({ slides }) {
+
+type CarouselSlides = {
+  slides : {
+    id: string;
+    img: string;
+    title: string;
+    caption: string;
+  }[];
+};
+
+
+
+
+function CarouselEvents({ slides }: CarouselSlides ) {
   return (
-    <Carousel data-bs-theme="w-[600px] dark">
+    <Carousel  data-bs-theme="w-[600px] dark">
       {slides.map((slide, index) => (
         <Carousel.Item key={index}>
           <div className="relative h-[350px] w-[600px] mx-auto">
