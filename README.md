@@ -1,10 +1,10 @@
 **Thrills - Experience Finder**
 
-Welcome to Thrills, the Experience Finder that takes you on a journey to discover exciting adventures! 
+Welcome to Thrills, the Experience Finder that takes you on a journey to discover exciting adventures!
 
 ## Introduction
 
-Thrills is a web application that allows you to explore a wide range of unique experiences during your travels. Whether you're seeking the thrill of a hot air balloon ride, a visit to an exclusive winery, or a retreat at a luxury spa, Thrills provides an intuitive and engaging way to find and plan your next adventure.
+Thrills is a web application developed with TypeScript, allowing you to explore a wide range of unique experiences during your travels. Whether you're seeking the thrill of a hot air balloon ride, a visit to an exclusive winery, or a retreat at a luxury spa, Thrills provides an intuitive and engaging way to find and plan your next adventure.
 
 ## Key Features
 
@@ -16,7 +16,7 @@ Thrills is a web application that allows you to explore a wide range of unique e
 
 ## Technologies Used
 
-Thrills is developed using React for building a responsive user interface and Tailwind CSS for a modern and clean style.
+Thrills is developed using React with TypeScript for building a responsive user interface and Tailwind CSS for a modern and clean style.
 
 ## Installation and Usage
 
