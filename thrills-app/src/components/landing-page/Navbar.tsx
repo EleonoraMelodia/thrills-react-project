@@ -2,18 +2,20 @@ import React from "react";
 import logo from "../../assets/Thrills LIGHTMODE.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 type NavbarOptions = {
-  options: string[];
-};
+  name: string;
+  path: string;
+}[];
 
 
-const Navbar = ({ options } : NavbarOptions) => {
+const Navbar =({ options }: { options: NavbarOptions }) => {
   return (
     <>
-      <div className="flex text-2xl md:text-sm relative">
-        <span className="absolute top-[-1.5rem]">
-          <img className="w-40" src={logo} alt="logo" />
+      <div className="flex text-2xl mb-32 md:text-sm relative">
+        <span className="absolute mb-4 top-[-1.5rem]">
+          <img className="w-[200px]" src={logo} alt="logo" />
         </span>
         <ul className="flex p-2 md:gap-2 absolute right-16">
           <li>
@@ -23,9 +25,9 @@ const Navbar = ({ options } : NavbarOptions) => {
           </li>
           <span className="hidden md:flex md:gap-4 ">
             {options.map((link, index) => (
-              <li className="hover:text-xl" key={index}>
-                <a href="#"> {link} </a>
-              </li>
+              <Link to={link.path} className="hover:text-xl" key={index}>
+                 {link.name}
+              </Link>
             ))}
           </span>
         </ul>

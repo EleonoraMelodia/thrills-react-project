@@ -7,14 +7,30 @@ import CentralCard from "./CentralCard";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import fire from "../../assets/fire1-1.png";
+import Footer from "./footer/Footer";
 
 const LandingPage = () => {
   const navArr = [
-    "About us",
-    "Discover more",
-    "Support",
-    "Security",
-    "Download",
+    {
+      name:"About us" ,
+      path: "/about-us"
+    },
+    {
+      name:  "Discover more" ,
+      path: "/discover-more"
+    },
+    {
+      name: "Support" ,
+      path: "/support"
+    },
+    {
+      name:"Security" ,
+      path: "/security"
+    },
+    {
+      name:"Download" ,
+      path: "/download"
+    }
   ];
 
 
@@ -31,6 +47,7 @@ const LandingPage = () => {
         </h2>
       </span>
       <CarouselEvents slides={slides} />
+      <Footer/>
     </div>
   );
 };

@@ -1,0 +1,72 @@
+{
+    "legal": [
+        {   "section" : "legal",
+            "name": "Privacy",
+            "link": "#privacy-policy"
+        },
+        {
+            "name": "Terms",
+            "link": "#terms-of-service"
+        },
+        {
+            "name": "Cookie Policy",
+            "link": "#cookie-policy"
+        }
+    ],
+    "careers": [
+        {
+            "name": "Careers Portal",
+            "link": "#careers"
+        },
+        {
+            "name": "Tech Blog",
+            "link": "#tech-blog"
+        }
+    ],
+    "support": [
+        {
+            "name": "Documentation",
+            "link": "#documentation"
+        },
+        {
+            "name": "Open-Source",
+            "link": "#open-source"
+        },
+        {
+            "name": "Tutorials & Guides",
+            "link": "#tutorials-guides"
+        }
+    ],
+    "faq": [
+        {
+            "name": "Destinations",
+            "link": "#destinations"
+        },
+        {
+            "name": "Press Room",
+            "link": "#press-room"
+        },
+        {
+            "name": "Contacts",
+            "link": "#contacts"
+        }
+    ],
+    "social": [
+        {
+            "name": "FaFacebook",
+            "link": "#facebook"
+        },
+        {
+            "name": "logo-instagram",
+            "link": "#instagram"
+        },
+        {
+            "name": "logo-twitter",
+            "link": "#twitter"
+        },
+        {
+            "name": "logo-linkedin",
+            "link": "#linkedin"
+        }
+    ]
+}

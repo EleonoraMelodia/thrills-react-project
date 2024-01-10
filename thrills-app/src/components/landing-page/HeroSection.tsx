@@ -46,7 +46,7 @@ const HeroSection = () => {
     <div className="flex flex-col md:flex-row gap-2 mt-[7%] p-10">
       <div className="flex flex-col w-full relative">
         <img
-          className="w-full h-full md:w-[100%] p-4  "
+          className=" w-full h-full md:w-[100%] p-4  "
           src={imgHero}
           alt="main landing page img"
               />
