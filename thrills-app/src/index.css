@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: rgb(15, 15, 15);
-}
 
 
-.visible{
- visibility: visible;
+
+.visible {
+  visibility: visible;
+
 }
 
 .hidden {
