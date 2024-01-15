@@ -1,7 +1,8 @@
 import React from "react";
 import imgHero from "../../assets/hero-sec.jpg";
-import SignUp from "./Authentication";
+import SignUp from "./authentication/Authentication";
 import img from "../../assets/cow.png";
+import Authentication from "./authentication/Authentication";
 
 const HeroSection = () => {
   const dataArr = [
@@ -46,7 +47,7 @@ const HeroSection = () => {
     <div className="flex flex-col md:flex-row gap-2 mt-[7%] p-10">
       <div className="flex flex-col w-full relative">
         <img
-          className=" w-full h-full md:w-[100%] p-4  "
+          className=" w-full h-[100%] md:w-[100%] p-4  "
           src={imgHero}
           alt="main landing page img"
               />
@@ -56,13 +57,13 @@ const HeroSection = () => {
         
       </div>
 
-      <div>
+      <div className="flex flex-col gap-0">
         <span className="flex font-nanum text-5xl ">
           <h2>Sign up and let yourself be kidnapped by an emotion! </h2>
-          <img className="w-[24%]" src={img} alt="sign up image" />
+          <img className=" absolute right-1 w-44" src={img} alt="sign up image" />
         </span>
 
-        <SignUp signupData = {dataArr} />
+        <Authentication signupData = {dataArr} />
       </div>
     </div>
   );

@@ -23,10 +23,15 @@ const FooterItems = ({ links }: { links: FooterLinks }) => {
               {sectionName === "social"
                 ? links[sectionName].map((item, itemIndex) => (
                     <li className="text-white m-6" key={itemIndex}>
-                      <a href="#"> {item.name === "logo-facebook" && <FaFacebook />} </a>
-                      {item.name === "logo-instagram" && <FaInstagram />}
-                      {item.name === "logo-twitter" && <FaTwitter />}
-                      {item.name === "logo-linkedin" && <FaLinkedin />}
+                      <a href="https://www.facebook.com/eleonora.melodia">
+                        {item.name === "logo-facebook" && <FaFacebook />}
+                      </a>
+                      <a href="https://www.instagram.com/eleonora_melodia/">
+                        {item.name === "logo-instagram" && <FaInstagram />}
+                      </a>
+                      <a href="https://www.linkedin.com/in/eleonora-melodia/">
+                        {item.name === "logo-linkedin" && <FaLinkedin />}
+                      </a>
                     </li>
                   ))
                 : links[sectionName].map((item, itemIndex) => (

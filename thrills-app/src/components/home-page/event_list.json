@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "location": "Amsterdam",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Amsterdam",
+    "caption": "Amsterdam"
+  },
+  {
+    "id": "2",
+    "location": "Amsterdam",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Amsterdam",
+    "caption": "Amsterdam"
+  },
+  {
+    "id": "3",
+    "location": "Amsterdam",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Amsterdam",
+    "caption": "Amsterdam"
+  },
+  {
+    "id": "4",
+    "location": "Amsterdam",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Amsterdam",
+    "caption": "Amsterdam"
+  },
+  {
+    "id": "5",
+    "location": "Amsterdam",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Amsterdam",
+    "caption": "Amsterdam"
+  },
+  {
+    "id": "8",
+    "location": "Barcelona",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Barcelona",
+    "caption": "Barcelona"
+  },
+  {
+    "id": "9",
+    "location": "Barcelona",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Barcelona",
+    "caption": "Barcelona"
+  },
+  {
+    "id": "10",
+    "location": "Barcelona",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Barcelona",
+    "caption": "Barcelona"
+  },
+  {
+    "id": "11",
+    "location": "Barcelona",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Barcelona",
+    "caption": "Barcelona"
+  },
+  {
+    "id": "12",
+    "location": "Barcelona",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Barcelona",
+    "caption": "Barcelona"
+  },
+  {
+    "id": "13",
+    "location": "Barcelona",
+    "img": "../src/assets/mtv.jpg",
+    "title": "Barcelona",
+    "caption": "Barcelona"
+  }
+]

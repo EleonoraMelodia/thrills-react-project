@@ -53,16 +53,12 @@
     ],
     "social": [
         {
-            "name": "FaFacebook",
+            "name": "logo-facebook",
             "link": "#facebook"
         },
         {
             "name": "logo-instagram",
             "link": "#instagram"
-        },
-        {
-            "name": "logo-twitter",
-            "link": "#twitter"
         },
         {
             "name": "logo-linkedin",

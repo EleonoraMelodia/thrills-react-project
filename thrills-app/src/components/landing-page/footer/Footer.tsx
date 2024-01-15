@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex flex-col gap-10">
         <FooterItems links={links} />
         <div className="grid grid-cols-1 gap-10 pt-2 pb-8 text-sm text-center text-gray-400 sm:grid-cols-2 lg:grid-cols-3">
-          <span> © 2023 Team 2. All rights reserved. </span>
+          <span> © 2023 Eleonora Melodia. All rights reserved. </span>
                   <span> Terms | Privacy Policy </span>
                   
         </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import img from "../../assets/vespa.png";
+import { useNavigate } from "react-router-dom";
+import img from "../../../assets/vespa.png";
 
 type SignupHeroData = {
   signupData: {
@@ -10,7 +10,7 @@ type SignupHeroData = {
   }[];
 };
 
-const SignUp = ({ signupData }: SignupHeroData) => {
+const Authentication = ({ signupData }: SignupHeroData) => {
   const [login, setLogin] = useState("hidden");
   const [password, setPassword] = useState("");
   const [inputs, setInputs] = useState(false);
@@ -50,16 +50,23 @@ const SignUp = ({ signupData }: SignupHeroData) => {
     );
   };
 
+  //handle the button login, for the visualize of the login form
   const handleLoginClick = () => {
     setLogin((prevLogin) => (prevLogin === "hidden" ? "visible" : "hidden"));
   };
 
+  //redirect the login to user Home, already missing of the authentication with real datas
+  const handleLoggingInClick = () => {
+    navigate("/user")
+  }
+
+  // hide the login form
   const handleBackClick = () => {
     setLogin("hidden");
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-opacity-50 p-4 rounded-md ">
       <div
         className={`grid grid-cols-2 gap-9 if ${
           login === "visible" ? "hidden" : "visible"
@@ -82,11 +89,11 @@ const SignUp = ({ signupData }: SignupHeroData) => {
             </div>
           ))}
 
-          <div className="p-4 flex gap-4">
+          <div className="p-4 flex gap-16">
             <button
               onClick={handleFormSubmit}
               type="submit"
-              className="bg-[#F4FE85] text-sm font-extrabold w-20 rounded-lg p-2"
+              className="bg-[#F4FE85] text-sm font-extrabold rounded-lg p-2"
             >
               Enjoy us!
             </button>
@@ -102,7 +109,7 @@ const SignUp = ({ signupData }: SignupHeroData) => {
       </div>
 
       <div
-        className={`flex flex-col absolute w-fit h-[30%] rounded-lg bg-slate-900 bg-opacity-90 z-50 left-35 top-[40%] ${login}`}
+        className={`flex flex-col absolute p-2 w-fit h-[30%] rounded-lg bg-black bg-opacity-50 z-50 left-35 top-[40%] ${login}`}
       >
         <form
           typeof="submit"
@@ -125,22 +132,22 @@ const SignUp = ({ signupData }: SignupHeroData) => {
             onChange={handlePasswordChange}
             required
           />
-          <div className="flex">
-            <button className="bg-[#F4FE85] text-black  p-1 rounded-4xl ">
+          <div className="flex gap-4">
+            <button onClick={handleLoggingInClick} className="bg-[#F4FE85] text-black  p-2 rounded-xl ">
               Login
             </button>
             <button
               onClick={handleBackClick}
-              className="bg-[#F4FE85] text-black  p-1 rounded-2xl "
+              className="bg-[#F4FE85] text-black  p-2 rounded-xl "
             >
               Back
             </button>
           </div>
         </form>
-        <img className="w-[200px] " src={img} alt="login image" />
+        <img className="w-[200px] absolute top-20 right-3 " src={img} alt="login image" />
       </div>
     </div>
   );
 };
 
-export default SignUp;
+export default Authentication;
