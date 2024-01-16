@@ -42,7 +42,7 @@ const MainEventList = ({ events }: { events: AllEvents }) => {
             </li>
           ))}
         </ul>
-        <h1 className="text-4xl text-white">Search your destination</h1>
+       
       </div>
     </div>
   );

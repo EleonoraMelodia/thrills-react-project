@@ -54,7 +54,7 @@ const Sidebar = ({ options }: { options: OptionsSidebar }) => {
             <li className="p-2 shadow-lg">
               <a href="">Local Guide</a>
             </li>
-            <span className="p-2 shadow-md">
+            <span className="p-2 text-slate-600 shadow-md">
               <Link to="/">Logout</Link>
             </span>
           </ul>
