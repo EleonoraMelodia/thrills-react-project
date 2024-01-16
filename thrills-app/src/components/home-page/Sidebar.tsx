@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useState } from "react";
 import { Link } from "react-router-dom";
-import img from "../../assets/vespa.png";
+import img from "../../assets/logo-and-theme/b-t-dec.png";
 import { useInputContext } from "./InputContext";
 
 type OptionsSidebar = {

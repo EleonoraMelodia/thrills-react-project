@@ -1,7 +1,7 @@
 import React from "react";
 import links from "./footer.json";
 import FooterItems from "./FooterItems";
-import logo from "../../../assets/Thrills LIGHTMODE.png";
+import logo from "../../../assets/logo-and-theme/Thrills LIGHTMODE.png";
 
 
 const Footer = () => {

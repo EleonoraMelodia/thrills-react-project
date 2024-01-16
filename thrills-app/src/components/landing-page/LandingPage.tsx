@@ -6,7 +6,7 @@ import CarouselEvents from "./Carousel";
 import CentralCard from "./CentralCard";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
-import fire from "../../assets/fire1-1.png";
+import fire from "../../assets/logo-and-theme/fire.png";
 import Footer from "./footer/Footer";
 
 const LandingPage = () => {

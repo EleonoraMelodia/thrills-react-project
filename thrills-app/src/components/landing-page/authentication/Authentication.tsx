@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import img from "../../../assets/vespa.png";
+import img from "../../../assets/logo-and-theme/signal.png";
 
 type SignupHeroData = {
   signupData: {

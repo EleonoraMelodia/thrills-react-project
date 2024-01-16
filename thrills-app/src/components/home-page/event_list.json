@@ -2,78 +2,91 @@
   {
     "id": "1",
     "location": "Amsterdam",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Amsterdam",
-    "caption": "Amsterdam"
+    "img": "../../../public/experiences/inlineskates-am.png",
+    "title": "Inline Skates Rental in Amsterdam",
+    "caption": "Right next to the beautiful Vondelpark, and if you want to skate outside of the park, then the bike lanes are smooth and without hills!",
+    "contacts": "email: rentalbikes_am@gmail.com, whatsapp: 334454****",
+    "category": "adventure"
   },
   {
     "id": "2",
     "location": "Amsterdam",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Amsterdam",
-    "caption": "Amsterdam"
+    "img": "../../../public/experiences/magicmike.png",
+    "title": "Coqtales Show: The Hottest Male Show in Amsterdam, Magic Mike",
+    "caption": "Book ahead and bag your ticket to Coqtales in Amsterdam, the new male strip show in town. ",
+    "contacts": "email: magicMike_am@gmail.com, whatsapp: 334454****",
+     "price" : "from $67 per adult" ,
+    "category": "relax"
   },
   {
     "id": "3",
     "location": "Amsterdam",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Amsterdam",
-    "caption": "Amsterdam"
+        "img": "../../../public/experiences/archery-am.png",
+    "title": "1-Hour Archery Class in Amsterdam",
+    "caption": "Enjoy a 60 minutes session of Archery at our Outdoor location in Amsterdam West.",
+    "contacts": "email: archery-class_am@gmail.com, whatsapp: 334454****",
+     "price" : "from $21.20 per adult" ,
+    "category": "adventure"
   },
   {
     "id": "4",
     "location": "Amsterdam",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Amsterdam",
-    "caption": "Amsterdam"
+       "img": "../../../public/experiences/electricscooter.png",
+    "title": "Electric Scooter Private Tour Amsterdam",
+    "caption": "Let's go Dutch. Only your guide, who is a local, knows if, when, when, why, what etc :-) This is so much fun !",
+    "contacts": "email: electric-scooters_am@gmail.com, whatsapp: 334454****",
+     "price" : "from $330 per group (up to 4)" ,
+    "category": "adventure"
   },
   {
     "id": "5",
     "location": "Amsterdam",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Amsterdam",
-    "caption": "Amsterdam"
+       "img": "../../../public/experiences/bubble.png",
+    "title": "Bubble Football in Amsterdam",
+    "caption": "You can play Bubble Football with a group of 4 or more players.",
+    "contacts": "email: electric-scooters_am@gmail.com, whatsapp: 334454****",
+     "price" : "from $21.70 per adult" ,
+    "category": "adventure"
   },
   {
-    "id": "8",
-    "location": "Barcelona",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Barcelona",
-    "caption": "Barcelona"
+    "id": "6",
+    "location": "Amsterdam",
+        "img": "../../../public/experiences/rituals.png",
+    "title": "House of Rituals",
+    "caption": "In 2020, one of Europe's most popular Home & Body Cosmetics brands, Rituals, opened its first flagship store in the historic centre of Amsterdam.",
+    "contacts": "email: houseOfRituals-am@gmail.com, whatsapp: 334454****",
+     "price" : "from $22.20 per adult" ,
+    "category": "relax"
   },
   {
-    "id": "9",
-    "location": "Barcelona",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Barcelona",
-    "caption": "Barcelona"
+    "id": "7",
+    "location": "Amsterdam",
+    "img": "../../../public/experiences/luxuryboat.png",
+    "title": "Amsterdam: Luxury Boat Tour with Onboard Bar",
+    "caption": "Enjoy watching the city float by in a relaxing setting (drinks are available for purchase) as you listen to guided commentary.",
+    "contacts": "email: luxuryboats-am@gmail.com, whatsapp: 334454****",
+    "price" : "from $50 per adult" ,
+    "category": "relax"
+  },
+  
+  {
+    "id": "7",
+    "location": "Amsterdam",
+         "img": "../../../public/experiences/",
+    "title": "House of Bols Amsterdam Entrance Ticket Plus Cocktail",
+    "caption": "You can learn all about it and sample some of the juniper-flavored liquor at the House of Bols Cocktail & Genever Experience",
+    "price" : "from $19.43 per adult" ,
+    "contacts": "email: luxuryboats-am@gmail.com, whatsapp: 334454****",
+    "category": "foodAndDrink"
   },
   {
-    "id": "10",
-    "location": "Barcelona",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Barcelona",
-    "caption": "Barcelona"
-  },
-  {
-    "id": "11",
-    "location": "Barcelona",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Barcelona",
-    "caption": "Barcelona"
-  },
-  {
-    "id": "12",
-    "location": "Barcelona",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Barcelona",
-    "caption": "Barcelona"
-  },
-  {
-    "id": "13",
-    "location": "Barcelona",
-    "img": "../src/assets/mtv.jpg",
-    "title": "Barcelona",
-    "caption": "Barcelona"
+    "id": "7",
+    "location": "Amsterdam",
+    "img": "../../../public/experiences/am-party.png",
+    "title": "Ultimate Party Pub Crawl",
+    "caption": "Enjoy crazy nights with the best house music in a multinational enviroment",
+    "price" : "drink card price for entry: $10 " ,
+    "contacts": "email: partyclub-am@gmail.com, whatsapp: 334454****",
+    "category": "nigthlife"
   }
 ]

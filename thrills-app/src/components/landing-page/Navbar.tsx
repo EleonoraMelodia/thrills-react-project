@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Thrills LIGHTMODE.png";
+import logo from "../../assets/logo-and-theme/Thrills LIGHTMODE.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";

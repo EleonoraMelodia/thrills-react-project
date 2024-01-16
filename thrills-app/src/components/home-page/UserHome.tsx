@@ -1,9 +1,9 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import adventureImg from "../../assets/dabbing.png";
-import chillImg from "../../assets/chill.png";
-import nightImg from "../../assets/dj.png";
-import extremeImg from "../../assets/fire3.png";
+import adventureImg from "../../assets/logo-and-theme/dabbing.png";
+import chillImg from "../../assets/logo-and-theme/chill.png";
+import nightImg from "../../assets/logo-and-theme/dj.png";
+import extremeImg from "../../assets/logo-and-theme/snowboard.png";
 import eventList from "./event_list.json";
 import MainEventList from "./MainEventList";
 import { InputProvider } from "./InputContext";
@@ -33,7 +33,7 @@ export const UserHome = () => {
   ];
 
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid user grid-cols-2">
       <InputProvider>
         <Sidebar options={options} />
         <MainEventList events={eventList} />

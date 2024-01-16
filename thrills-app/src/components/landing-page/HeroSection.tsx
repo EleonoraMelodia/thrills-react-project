@@ -1,7 +1,6 @@
 import React from "react";
-import imgHero from "../../assets/hero-sec.jpg";
-import SignUp from "./authentication/Authentication";
-import img from "../../assets/cow.png";
+import imgHero from "../../assets/logo-and-theme/hero-sec.jpg";
+import img from "../../assets/logo-and-theme/cow2.png";
 import Authentication from "./authentication/Authentication";
 
 const HeroSection = () => {
