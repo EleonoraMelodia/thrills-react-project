@@ -13,40 +13,42 @@ type AllEvents = {
 }[];
 
 const MainEventList = ({ events }: { events: AllEvents }) => {
-  const { input } = useInputContext();
+  const { input, category } = useInputContext();
+
+  const filteredEvents = events.filter((event) => {
+    return (
+      (category === "" ||
+        event.category.toUpperCase() === category.toUpperCase()) &&
+      (input === "" ||
+        event.location.toUpperCase().includes(input.toUpperCase()))
+    );
+  });
 
   return (
-    <div className="user relative w-screen h-screen">
- 
-      <div className="p-10 absolute inset-0 overflow-y-auto w-screen">
-        <ul className="flex flex-col w-[40%]">
-          {events.map((event, index) => (
-            <li
-              key={index}
-              className={`${
-                event.location.toUpperCase() === input.toUpperCase()
-                  ? "visible"
-                  : "hidden"
-              } p-4`}
-            >
-              <div className="flex flex-col text-white font-bold gap-1 bg-black bg-opacity-50 rounded-lg p-4">
-                <h2>{event.title}</h2>
-           
-                <img src={event.img} alt={event.title} />
-                <p>{event.caption}</p>
-                <h4>{event.price}</h4>
-                <div className="flex flex-col">
-                  <p>{event.contacts}</p>
+    <div className="h-screen overflow-y-auto flex flex-col user items-center w-full">
+      <div className="p-10">
+        <ul className="flex flex-col w-full">
+          {filteredEvents.length > 0 ? (
+            filteredEvents.map((event, index) => (
+              <li key={index} className={`p-4`}>
+                <div className="flex flex-col w-[500px]  text-white font-bold gap-1 bg-black bg-opacity-50 rounded-lg p-4">
+                  <h2>{event.title}</h2>
+                  <img src={event.img} alt={event.title} />
+                  <p>{event.caption}</p>
+                  <h4>{event.price}</h4>
+                  <div className="flex flex-col">
+                    <p>{event.contacts}</p>
+                  </div>
                 </div>
-              </div>
-            </li>
-          ))}
+              </li>
+            ))
+          ) : (
+            <p> Search a new destination </p>
+          )}
         </ul>
-       
       </div>
     </div>
   );
 };
 
 export default MainEventList;
-

@@ -1,30 +1,30 @@
 [{
 "id": "1",
-"img": "../src/assets/experiences/mtv.jpg",
+"img": "../public/experiences/mtv.jpg",
 "title": "MTV festival 2024 in Malta",
 "caption": "Europe's top artists are about to set Malta ablaze! Book your ticket now for this unforgettable experience."
 },
 {
 "id": "2",
-"img": "../src/assets/experiences/aerogravity.png",
+"img": "../public/experiences/aero_gravity.jpg",
 "title": "Aero Gravity in Milan",
 "caption": "Experience weightlessness with Air Gravity | book now for a one-of-a-kind adventure!"
 },
 {
 "id": "3",
-"img": "../src/assets//experiences/wakeboarding.png",
+"img": "../public/experiences/wakeboarding.png",
 "title": "Wakeboarding in Amsterdam",
 "caption": "Experience the thrill of wakeboarding along the city's canals"
 },
 {
 "id": "4",
-"img": "../src/assets//experiences/bunjee.jpg",
+"img": "../public/experiences/bunjee.jpg",
 "title": "Bungee jumping in Scotland!",
 "caption": "Take the leap of a lifetime with bungee jumping in the stunning valley of Killiecrankie | an adrenaline-pumping experience against the backdrop of stunning scotland landscapes!"
 },
 {
     "id": "5",
-    "img": "../src/assets//experiences/sandboard.png",
+  "img": "../public/experiences/sandboard.png",
     "title": "Sandboard in Andalusia",
     "caption": "Sands of Andalusia beckon! Experience the thrill of sandboarding in Tabernas Desert – unforgettable moments in Europe's mesmerizing dunes!"
 }]

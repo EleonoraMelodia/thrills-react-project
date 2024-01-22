@@ -7,8 +7,11 @@ import extremeImg from "../../assets/logo-and-theme/snowboard.png";
 import eventList from "./event_list.json";
 import MainEventList from "./MainEventList";
 import { InputProvider } from "./InputContext";
+import { useState } from "react";
 
 export const UserHome = () => {
+  const initialEvents = eventList;
+
   const options = [
     {
       name: "Adventure",
@@ -16,27 +19,37 @@ export const UserHome = () => {
       color: "yellow-500",
     },
     {
-      name: "Chill out",
+      name: "Chill Out",
       img: chillImg,
       color: "pink-500",
     },
     {
-      name: "Night out",
+      name: "Night Out",
       img: nightImg,
       color: "blue-500",
     },
     {
-      name: "Extreme experience",
+      name: "Extreme Experience",
       img: extremeImg,
       color: "gold-500",
     },
   ];
 
-  return (
-    <div className="grid user grid-cols-2">
+  const [events, setEvents] = useState(initialEvents);
+
+  const searchEvents = (searchInput: string) => {
+    const filteredEvents = initialEvents.filter((event) =>
+      event.location.toUpperCase().includes(searchInput.toUpperCase())
+    );
+
+    setEvents(filteredEvents);
+  };
+
+ return (
+    <div className=" flex">
       <InputProvider>
-        <Sidebar options={options} />
-        <MainEventList events={eventList} />
+        <Sidebar options={options} searchEvents={searchEvents} />
+        <MainEventList events={events} />
       </InputProvider>
     </div>
   );

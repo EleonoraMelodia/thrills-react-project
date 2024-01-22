@@ -16,9 +16,11 @@
 }
 
 .user {
-  background-image: url("./assets/logo-and-theme/galaxy2.png");
+
+  background-image: url("./assets/logo-and-theme/background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
+ 
+ 
 }
+

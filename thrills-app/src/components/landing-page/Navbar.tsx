@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo-and-theme/Thrills LIGHTMODE.png";
+import logo from "../../assets/logo-and-theme/new-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -13,9 +13,9 @@ type NavbarOptions = {
 const Navbar =({ options }: { options: NavbarOptions }) => {
   return (
     <>
-      <div className="flex text-2xl mb-32 md:text-sm relative">
-        <span className="absolute mb-4 top-[-1.5rem]">
-          <img className="w-[250px]" src={logo} alt="logo" />
+      <div className="flex text-2xl m-0 md:mb-32 md:text-sm relative">
+        <span className="absolute md:mb-4 md:top-[-0.4rem]">
+          <img className=" z-30 w-[78px] md:w-[170px] " src={logo} alt="logo" />
         </span>
         <ul className="flex p-2 md:gap-2 absolute right-16">
           <li>

@@ -4,12 +4,12 @@ import React from "react";
 const CentralCard = () => {
   return (
     <>
-      <div className="flex justify-center items-center gap-4 p-16">
-        <span className="w-[50%] ">
+      <div className="flex flex-col md:flex-row justify-center items-center w-full gap-4 md:p-16">
+        <span className="w-full md:w-[50%]">
           <VideoSection />
         </span>
 
-        <div className="w-[20%]">
+        <div className="w-screen p-3  md:w-[20%] md:p-0">
           <h2 className="font-nanum text-4xl">
             Are you ready to feel your heartbeat?
           </h2>

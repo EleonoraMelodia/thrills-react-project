@@ -56,7 +56,7 @@ const HeroSection = () => {
         
       </div>
 
-      <div className="flex flex-col gap-0">
+      <div className="flex flex-col gap-0 mt-2">
         <span className="flex font-nanum text-5xl ">
           <h2>Sign up and let yourself be kidnapped by an emotion! </h2>
           <img className=" absolute right-1 w-44" src={img} alt="sign up image" />

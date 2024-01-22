@@ -68,14 +68,14 @@ const Authentication = ({ signupData }: SignupHeroData) => {
   return (
     <div className="flex flex-col bg-opacity-50 p-4 rounded-md ">
       <div
-        className={`grid grid-cols-2 gap-9 if ${
+        className={`flex flex-col md:grid md:grid-cols-2 gap-0 md:gap-9 if ${
           login === "visible" ? "hidden" : "visible"
         }`}
       >
-        <form className="text-sm w-40" action="#" method="POST">
+        <form className="text-sm w-16 md:w-40" action="#" method="POST">
           {signupData.map((options, index) => (
-            <div className=" grid grid-cols-2 gap-36 p-2" key={index}>
-              <label className="text-slate-900 flex" htmlFor={options.name}>
+            <div className=" flex flex-col md:grid md:grid-cols-2 md:gap-24  p-2" key={index}>
+              <label className="text-slate-900 p-2 md:p-0 flex w-screen" htmlFor={options.name}>
                 {options.label}
               </label>
               <input
@@ -144,7 +144,7 @@ const Authentication = ({ signupData }: SignupHeroData) => {
             </button>
           </div>
         </form>
-        <img className="w-[200px] absolute top-20 right-3 " src={img} alt="login image" />
+        <img className="w-[200px] absolute top-28 right-3 " src={img} alt="login image" />
       </div>
     </div>
   );

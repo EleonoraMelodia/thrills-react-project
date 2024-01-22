@@ -16,7 +16,7 @@
     "caption": "Book ahead and bag your ticket to Coqtales in Amsterdam, the new male strip show in town. ",
     "contacts": "email: magicMike_am@gmail.com, whatsapp: 334454****",
      "price" : "from $67 per adult" ,
-    "category": "relax"
+    "category": "Chill Out"
   },
   {
     "id": "3",
@@ -26,7 +26,7 @@
     "caption": "Enjoy a 60 minutes session of Archery at our Outdoor location in Amsterdam West.",
     "contacts": "email: archery-class_am@gmail.com, whatsapp: 334454****",
      "price" : "from $21.20 per adult" ,
-    "category": "adventure"
+    "category": "Adventure"
   },
   {
     "id": "4",
@@ -36,7 +36,7 @@
     "caption": "Let's go Dutch. Only your guide, who is a local, knows if, when, when, why, what etc :-) This is so much fun !",
     "contacts": "email: electric-scooters_am@gmail.com, whatsapp: 334454****",
      "price" : "from $330 per group (up to 4)" ,
-    "category": "adventure"
+    "category": "Adventure"
   },
   {
     "id": "5",
@@ -56,7 +56,7 @@
     "caption": "In 2020, one of Europe's most popular Home & Body Cosmetics brands, Rituals, opened its first flagship store in the historic centre of Amsterdam.",
     "contacts": "email: houseOfRituals-am@gmail.com, whatsapp: 334454****",
      "price" : "from $22.20 per adult" ,
-    "category": "relax"
+    "category": "Chill Out"
   },
   {
     "id": "7",
@@ -66,13 +66,13 @@
     "caption": "Enjoy watching the city float by in a relaxing setting (drinks are available for purchase) as you listen to guided commentary.",
     "contacts": "email: luxuryboats-am@gmail.com, whatsapp: 334454****",
     "price" : "from $50 per adult" ,
-    "category": "relax"
+    "category": "Chill Out"
   },
   
   {
     "id": "7",
     "location": "Amsterdam",
-         "img": "../../../public/experiences/",
+         "img": "../../../public/experiences/bar-class.png",
     "title": "House of Bols Amsterdam Entrance Ticket Plus Cocktail",
     "caption": "You can learn all about it and sample some of the juniper-flavored liquor at the House of Bols Cocktail & Genever Experience",
     "price" : "from $19.43 per adult" ,
@@ -87,6 +87,6 @@
     "caption": "Enjoy crazy nights with the best house music in a multinational enviroment",
     "price" : "drink card price for entry: $10 " ,
     "contacts": "email: partyclub-am@gmail.com, whatsapp: 334454****",
-    "category": "nigthlife"
+    "category": "Night Out"
   }
 ]
