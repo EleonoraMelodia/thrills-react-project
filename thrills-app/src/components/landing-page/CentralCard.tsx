@@ -18,10 +18,7 @@ const CentralCard = () => {
             fullest! We aim to make your holidays unforgettable by providing the
             heart-stirring experiences you crave. Explore our offerings and
             choose your preferred city to embark on a journey tailored to your
-            desires. Whether you are an adventurer seeking thrilling experiences
-            or someone yearning for relaxation in one of the world's most
-            amazing spas, Thrills is here for you! Join us and let us enhance
-            your holiday with experiences that will stay with you forever.
+            desires.
             Select your city and let the adventure begin!
           </p>
         </div>

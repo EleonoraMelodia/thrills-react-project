@@ -57,8 +57,8 @@ const Authentication = ({ signupData }: SignupHeroData) => {
 
   //redirect the login to user Home, already missing of the authentication with real datas
   const handleLoggingInClick = () => {
-    navigate("/user")
-  }
+    navigate("/user");
+  };
 
   // hide the login form
   const handleBackClick = () => {
@@ -74,8 +74,14 @@ const Authentication = ({ signupData }: SignupHeroData) => {
       >
         <form className="text-sm w-16 md:w-40" action="#" method="POST">
           {signupData.map((options, index) => (
-            <div className=" flex flex-col md:grid md:grid-cols-2 md:gap-24  p-2" key={index}>
-              <label className="text-slate-900 p-2 md:p-0 flex w-screen" htmlFor={options.name}>
+            <div
+              className=" flex flex-col md:grid md:grid-cols-2 md:gap-24  p-2"
+              key={index}
+            >
+              <label
+                className="text-slate-900 p-2 md:p-0 flex w-screen"
+                htmlFor={options.name}
+              >
                 {options.label}
               </label>
               <input
@@ -89,18 +95,18 @@ const Authentication = ({ signupData }: SignupHeroData) => {
             </div>
           ))}
 
-          <div className="p-4 flex gap-16">
+          <div className=" gap-36 grid grid-cols-2">
             <button
               onClick={handleFormSubmit}
               type="submit"
-              className="bg-[#F4FE85] text-sm font-extrabold rounded-lg p-2"
+              className="bg-[#F4FE85] w-32 text-sm font-extrabold rounded-lg p-2 "
             >
               Enjoy us!
             </button>
 
             <button
               onClick={handleLoginClick}
-              className="bg-[#F4FE85] text-sm font-extrabold w-20 rounded-lg p-2"
+              className="bg-[#F4FE85] text-sm font-extrabold w-32 rounded-lg"
             >
               Login
             </button>
@@ -133,7 +139,10 @@ const Authentication = ({ signupData }: SignupHeroData) => {
             required
           />
           <div className="flex gap-4">
-            <button onClick={handleLoggingInClick} className="bg-[#F4FE85] text-black  p-2 rounded-xl ">
+            <button
+              onClick={handleLoggingInClick}
+              className="bg-[#F4FE85] text-black  p-2 rounded-xl "
+            >
               Login
             </button>
             <button
@@ -144,7 +153,11 @@ const Authentication = ({ signupData }: SignupHeroData) => {
             </button>
           </div>
         </form>
-        <img className="w-[200px] absolute top-28 right-3 " src={img} alt="login image" />
+        <img
+          className="w-[200px] absolute top-28 right-3 "
+          src={img}
+          alt="login image"
+        />
       </div>
     </div>
   );

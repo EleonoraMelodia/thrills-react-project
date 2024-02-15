@@ -112,7 +112,7 @@ const Sidebar: React.FC<SidebarProps> = ({ options, searchEvents }) => {
               <a href=""> Make a gift </a>
             </li>
             <li className="p-2 shadow-lg">
-              <a href="">Local Guide</a>
+            <Link to="/local" > Local Guide</Link>
             </li>
             <span className="p-2 text-slate-600 shadow-md">
               <Link to="/">Logout</Link>

@@ -2,25 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 .visible {
   visibility: visible;
-
 }
 
 .hidden {
   display: none;
-
 }
 
 .user {
-
   background-image: url("./assets/logo-and-theme/background.png");
   background-size: cover;
   background-repeat: no-repeat;
- 
- 
 }
-
